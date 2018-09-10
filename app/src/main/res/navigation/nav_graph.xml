@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:startDestination="@id/mainFragment">
+
+    <fragment
+        android:id="@+id/mainFragment"
+        android:name="mak.onelinecoding.questforglory.MainFragment"
+        android:label="@string/app_name"
+        tools:layout="@layout/fragment_main">
+        <action
+            android:id="@+id/action_mainFragment_to_ichigoKurosakiIchigoFragment"
+            app:destination="@id/ichigoKurosakiIchigoFragment" />
+        <action
+            android:id="@+id/action_mainFragment_to_heroInItsMakingFragment"
+            app:destination="@id/heroInItsMakingFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/ichigoKurosakiIchigoFragment"
+        android:name="mak.onelinecoding.questforglory.IchigoKurosakiIchigoFragment"
+        android:label="@string/ichigo_kurosaki_ichigo_label"
+        tools:layout="@layout/fragment_ichigo_kurosaki_ichigo">
+        <action
+            android:id="@+id/action_ichigoKurosakiIchigoFragment_to_problemFragment"
+            app:destination="@id/problemFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/heroInItsMakingFragment"
+        android:name="mak.onelinecoding.questforglory.HeroInItsMakingFragment"
+        android:label="@string/hero_in_its_making_label"
+        tools:layout="@layout/fragment_hero_in_its_making">
+        <action
+            android:id="@+id/action_heroInItsMakingFragment_to_problemFragment"
+            app:destination="@id/problemFragment" />
+        <action
+            android:id="@+id/action_heroInItsMakingFragment_to_clarkGableFragment"
+            app:destination="@id/clarkGableFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/problemFragment"
+        android:name="mak.onelinecoding.questforglory.ProblemFragment"
+        android:label="@string/problem_label"
+        tools:layout="@layout/fragment_problem">
+        <action
+            android:id="@+id/action_problemFragment_to_mainFragment"
+            app:destination="@id/mainFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/clarkGableFragment"
+        android:name="mak.onelinecoding.questforglory.ClarkGableFragment"
+        android:label="@string/clark_gable_label"
+        tools:layout="@layout/fragment_clark_gable"/>
+
+</navigation>

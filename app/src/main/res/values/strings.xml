@@ -9,13 +9,11 @@
     <string name="ichigo_kurosaki_ichigo_description">You pierced sword through one ninja\'s chest, by corner of the eye, you noticed 4 more coming from behind. You thrown shurikens just to get some time, knowing that it can’t do any harm to this hard cored ninjas. But that was enough, you grabbed first ninja for arm and used him as shield against piercing attack from…\nAnd then you woke up… It was about time, another day finished… You can go</string>
     <string name="ichigo_kurosaki_ichigo_button_text">(go to Problem?)</string>
 
-
     <string name="hero_in_its_making_label">Hero in its making</string>
     <string name="hero_in_its_making_description">Suddenly… Le wild Dakinsa appears asking to open the CASE.</string>
     <string name="hero_in_its_making_le_wild_dakinsa">Le wild Dakinsa</string>
     <string name="hero_in_its_making_problem">Great! I have better things to do. Let him open it\n(go to Problem?)</string>
     <string name="hero_in_its_making_clark_gable">No! Sometimes man has to do what man has to do\n(go to Clark Gable)</string>
-
 
     <string name="problem_label">Problem?</string>
     <string name="problem_description">Leave those poor fools doing all the hard work. Why don’t I just sit down and start reading new hero daily magazine, about other fools doing the hard work. You would rather sit and enjoy pint of beer…</string>
@@ -26,4 +24,7 @@
     <string name="clark_gable_hero_party">I can\'t do it after all… I need to search for quest companions\n(go to Hero Party)</string>
     <string name="clark_gable_loshmi_the_gray">Who cares… I am Tier 1 hero anyway..\n(go to Loshmi The Gray)</string>
     <string name="clark_gable_label">Clark Gable</string>
+
+    <string name="sand_castle_description">You made it… CASE is solved, and you can bask in your glory.\n\nFrom town to town, your name will be singed, young virgins will repeat your name in their dreams, and jealous husbands will curse you because after tale of your deeds they will never be top male in their wife’s hearts.</string>
+    <string name="sand_castle_label">Sand Castle</string>
 </resources>

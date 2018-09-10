@@ -53,6 +53,19 @@
         android:id="@+id/clarkGableFragment"
         android:name="mak.onelinecoding.questforglory.ClarkGableFragment"
         android:label="@string/clark_gable_label"
-        tools:layout="@layout/fragment_clark_gable"/>
+        tools:layout="@layout/fragment_clark_gable">
+        <action
+            android:id="@+id/action_clarkGableFragment_to_sandCastleFragment"
+            app:destination="@id/sandCastleFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/sandCastleFragment"
+        android:name="mak.onelinecoding.questforglory.SandCastleFragment"
+        android:label="@string/sand_castle_label"
+        tools:layout="@layout/fragment_sand_castle" >
+        <action
+            android:id="@+id/action_sandCastleFragment_to_mainFragment"
+            app:destination="@id/mainFragment" />
+    </fragment>
 
 </navigation>

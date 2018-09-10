@@ -13,9 +13,18 @@
                       <LayoutPositions>
                         <option name="myPosition">
                           <Point>
-                            <option name="x" value="543" />
-                            <option name="y" value="216" />
+                            <option name="x" value="726" />
+                            <option name="y" value="78" />
                           </Point>
+                        </option>
+                        <option name="myPositions">
+                          <map>
+                            <entry key="action_clarkGableFragment_to_sandCastleFragment">
+                              <value>
+                                <LayoutPositions />
+                              </value>
+                            </entry>
+                          </map>
                         </option>
                       </LayoutPositions>
                     </value>
@@ -25,8 +34,8 @@
                       <LayoutPositions>
                         <option name="myPosition">
                           <Point>
-                            <option name="x" value="255" />
-                            <option name="y" value="115" />
+                            <option name="x" value="304" />
+                            <option name="y" value="-413" />
                           </Point>
                         </option>
                         <option name="myPositions">
@@ -51,8 +60,8 @@
                       <LayoutPositions>
                         <option name="myPosition">
                           <Point>
-                            <option name="x" value="251" />
-                            <option name="y" value="-198" />
+                            <option name="x" value="221" />
+                            <option name="y" value="-69" />
                           </Point>
                         </option>
                         <option name="myPositions">
@@ -98,13 +107,34 @@
                       <LayoutPositions>
                         <option name="myPosition">
                           <Point>
-                            <option name="x" value="512" />
-                            <option name="y" value="-566" />
+                            <option name="x" value="419" />
+                            <option name="y" value="176" />
                           </Point>
                         </option>
                         <option name="myPositions">
                           <map>
                             <entry key="action_problemFragment_to_mainFragment">
+                              <value>
+                                <LayoutPositions />
+                              </value>
+                            </entry>
+                          </map>
+                        </option>
+                      </LayoutPositions>
+                    </value>
+                  </entry>
+                  <entry key="sandCastleFragment">
+                    <value>
+                      <LayoutPositions>
+                        <option name="myPosition">
+                          <Point>
+                            <option name="x" value="487" />
+                            <option name="y" value="523" />
+                          </Point>
+                        </option>
+                        <option name="myPositions">
+                          <map>
+                            <entry key="action_sandCastleFragment_to_mainFragment">
                               <value>
                                 <LayoutPositions />
                               </value>

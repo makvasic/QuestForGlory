@@ -20,9 +20,9 @@ class ClarkGableFragment : Fragment() {
     }
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
-//        sendCasteButton.setOnClickListener(
-//            Navigation.createNavigateOnClickListener(R.id.sendCasteFragment)
-//        )
+        sendCasteButton.setOnClickListener(
+            Navigation.createNavigateOnClickListener(R.id.sandCastleFragment)
+        )
 //
 //        heroPartyButton.setOnClickListener(
 //            Navigation.createNavigateOnClickListener(R.id.heroPartyFragment)

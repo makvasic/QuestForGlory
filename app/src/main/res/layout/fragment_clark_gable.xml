@@ -31,7 +31,7 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
             android:contentDescription="@string/clark_gable_send_castle"
-            android:src="@drawable/send_castle" />
+            android:src="@drawable/sand_castle" />
 
         <Button
             android:id="@+id/heroPartyButton"

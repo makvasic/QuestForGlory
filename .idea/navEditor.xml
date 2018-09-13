@@ -19,6 +19,16 @@
                         </option>
                         <option name="myPositions">
                           <map>
+                            <entry key="action_clarkGableFragment_to_heroPartyFragment">
+                              <value>
+                                <LayoutPositions />
+                              </value>
+                            </entry>
+                            <entry key="action_clarkGableFragment_to_loshmiTheGrayFragment">
+                              <value>
+                                <LayoutPositions />
+                              </value>
+                            </entry>
                             <entry key="action_clarkGableFragment_to_sandCastleFragment">
                               <value>
                                 <LayoutPositions />
@@ -55,6 +65,18 @@
                       </LayoutPositions>
                     </value>
                   </entry>
+                  <entry key="heroPartyFragment">
+                    <value>
+                      <LayoutPositions>
+                        <option name="myPosition">
+                          <Point>
+                            <option name="x" value="829" />
+                            <option name="y" value="423" />
+                          </Point>
+                        </option>
+                      </LayoutPositions>
+                    </value>
+                  </entry>
                   <entry key="ichigoKurosakiIchigoFragment">
                     <value>
                       <LayoutPositions>
@@ -72,6 +94,18 @@
                               </value>
                             </entry>
                           </map>
+                        </option>
+                      </LayoutPositions>
+                    </value>
+                  </entry>
+                  <entry key="loshmiTheGrayFragment">
+                    <value>
+                      <LayoutPositions>
+                        <option name="myPosition">
+                          <Point>
+                            <option name="x" value="906" />
+                            <option name="y" value="-233" />
+                          </Point>
                         </option>
                       </LayoutPositions>
                     </value>

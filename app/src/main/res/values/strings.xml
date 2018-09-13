@@ -27,4 +27,16 @@
 
     <string name="sand_castle_description">You made it… CASE is solved, and you can bask in your glory.\n\nFrom town to town, your name will be singed, young virgins will repeat your name in their dreams, and jealous husbands will curse you because after tale of your deeds they will never be top male in their wife’s hearts.</string>
     <string name="sand_castle_label">Sand Castle</string>
+
+    <string name="hero_party_description">As you enter smoky old dusky tavern, you can see several hard looking fellas, who go about their own business… Seems none of them is noticing you coming in…</string>
+    <string name="hero_party_tier2">I will ask party of semi-veterans, they look capable of doing the muscle work for me.\n(go to Tier 2)</string>
+    <string name="hero_party_tier3">I chose to ask veteran party… Better to have more than less.\n(go to page Tier 3)</string>
+    <string name="hero_party_dacha_turkish_terror">I will ask Dakinsa… old friend from thousands battles to help me… more XP for both of us…\n(go to Dacha theTurkish terror)</string>
+    <string name="hero_party_label">Hero Party</string>
+
+
+    <string name="loshmi_the_gray_label">LoshMi The Gray</string>
+    <string name="loshmi_the_gray_description">As you expose your problem to LoshMi, you can see hint of his smile, as would you look upon child who would try to fight his way with wooden sword against old Oak tree…</string>
+    <string name="loshmi_the_gray_soothsayer">Young one, if you want to hear my advice, go far to the north, where mountains touch the sky, where clouds dance among eyes of ones who watch it. There will you find Pedja the oracle\n(go to page Soothsayer)</string>
+    <string name="loshmi_the_gray_bridge_of_doom">I help you will… if you do thou quest for me\n(go to Bridge of doom)</string>
 </resources>

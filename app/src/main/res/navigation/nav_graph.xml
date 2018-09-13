@@ -57,15 +57,31 @@
         <action
             android:id="@+id/action_clarkGableFragment_to_sandCastleFragment"
             app:destination="@id/sandCastleFragment" />
+        <action
+            android:id="@+id/action_clarkGableFragment_to_heroPartyFragment"
+            app:destination="@id/heroPartyFragment" />
+        <action
+            android:id="@+id/action_clarkGableFragment_to_loshmiTheGrayFragment"
+            app:destination="@id/loshmiTheGrayFragment" />
     </fragment>
     <fragment
         android:id="@+id/sandCastleFragment"
         android:name="mak.onelinecoding.questforglory.SandCastleFragment"
         android:label="@string/sand_castle_label"
-        tools:layout="@layout/fragment_sand_castle" >
+        tools:layout="@layout/fragment_sand_castle">
         <action
             android:id="@+id/action_sandCastleFragment_to_mainFragment"
             app:destination="@id/mainFragment" />
     </fragment>
+    <fragment
+        android:id="@+id/heroPartyFragment"
+        android:name="mak.onelinecoding.questforglory.HeroPartyFragment"
+        android:label="@string/hero_party_label"
+        tools:layout="@layout/fragment_hero_party" />
+    <fragment
+        android:id="@+id/loshmiTheGrayFragment"
+        android:name="mak.onelinecoding.questforglory.LoshmiTheGrayFragment"
+        android:label="@string/loshmi_the_gray_label"
+        tools:layout="@layout/fragment_loshmi_the_gray" />
 
 </navigation>

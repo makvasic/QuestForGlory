@@ -9,27 +9,27 @@ import androidx.navigation.Navigation
 import kotlinx.android.synthetic.main.fragment_clark_gable.*
 import kotlinx.android.synthetic.main.fragment_main.*
 
-class ClarkGableFragment : Fragment() {
+class HeroPartyFragment : Fragment() {
 
     override fun onCreateView(
         inflater: LayoutInflater,
         container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-        return LayoutInflater.from(context).inflate(R.layout.fragment_clark_gable, container, false)
+        return LayoutInflater.from(context).inflate(R.layout.fragment_hero_party, container, false)
     }
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
-        sendCasteButton.setOnClickListener(
-            Navigation.createNavigateOnClickListener(R.id.sandCastleFragment)
-        )
-
-        heroPartyButton.setOnClickListener(
-            Navigation.createNavigateOnClickListener(R.id.heroPartyFragment)
-        )
-
-        loshmiTheGrayButton.setOnClickListener(
-            Navigation.createNavigateOnClickListener(R.id.loshmiTheGrayFragment)
-        )
+//        sendCasteButton.setOnClickListener(
+//            Navigation.createNavigateOnClickListener(R.id.sandCastleFragment)
+//        )
+//
+//        heroPartyButton.setOnClickListener(
+//            Navigation.createNavigateOnClickListener(R.id.heroPartyFragment)
+//        )
+//
+//        loshmiTheGreatButton.setOnClickListener(
+//            Navigation.createNavigateOnClickListener(R.id.loshmiTheGreatFragment)
+//        )
     }
 }

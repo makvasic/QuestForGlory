@@ -2,24 +2,24 @@
 <navigation xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    app:startDestination="@id/mainFragment">
+    app:startDestination="@id/questForGloryFragment">
 
     <fragment
-        android:id="@+id/mainFragment"
-        android:name="mak.onelinecoding.questforglory.MainFragment"
+        android:id="@+id/questForGloryFragment"
+        android:name="mak.onelinecoding.questforglory.fragments.QuestForGloryFragment"
         android:label="@string/app_name"
-        tools:layout="@layout/fragment_main">
+        tools:layout="@layout/fragment_quest_for_glory">
         <action
-            android:id="@+id/action_mainFragment_to_ichigoKurosakiIchigoFragment"
+            android:id="@+id/action_questForGloryFragment_to_ichigoKurosakiIchigoFragment"
             app:destination="@id/ichigoKurosakiIchigoFragment" />
         <action
-            android:id="@+id/action_mainFragment_to_heroInItsMakingFragment"
+            android:id="@+id/action_questForGloryFragment_to_heroInItsMakingFragment"
             app:destination="@id/heroInItsMakingFragment" />
     </fragment>
 
     <fragment
         android:id="@+id/ichigoKurosakiIchigoFragment"
-        android:name="mak.onelinecoding.questforglory.IchigoKurosakiIchigoFragment"
+        android:name="mak.onelinecoding.questforglory.fragments.IchigoKurosakiIchigoFragment"
         android:label="@string/ichigo_kurosaki_ichigo_label"
         tools:layout="@layout/fragment_ichigo_kurosaki_ichigo">
         <action
@@ -29,7 +29,7 @@
 
     <fragment
         android:id="@+id/heroInItsMakingFragment"
-        android:name="mak.onelinecoding.questforglory.HeroInItsMakingFragment"
+        android:name="mak.onelinecoding.questforglory.fragments.HeroInItsMakingFragment"
         android:label="@string/hero_in_its_making_label"
         tools:layout="@layout/fragment_hero_in_its_making">
         <action
@@ -42,16 +42,16 @@
 
     <fragment
         android:id="@+id/problemFragment"
-        android:name="mak.onelinecoding.questforglory.ProblemFragment"
+        android:name="mak.onelinecoding.questforglory.fragments.ProblemFragment"
         android:label="@string/problem_label"
         tools:layout="@layout/fragment_problem">
         <action
-            android:id="@+id/action_problemFragment_to_mainFragment"
-            app:destination="@id/mainFragment" />
+            android:id="@+id/action_problemFragment_to_questForGloryFragment"
+            app:destination="@id/questForGloryFragment" />
     </fragment>
     <fragment
         android:id="@+id/clarkGableFragment"
-        android:name="mak.onelinecoding.questforglory.ClarkGableFragment"
+        android:name="mak.onelinecoding.questforglory.fragments.ClarkGableFragment"
         android:label="@string/clark_gable_label"
         tools:layout="@layout/fragment_clark_gable">
         <action
@@ -66,22 +66,186 @@
     </fragment>
     <fragment
         android:id="@+id/sandCastleFragment"
-        android:name="mak.onelinecoding.questforglory.SandCastleFragment"
+        android:name="mak.onelinecoding.questforglory.fragments.SandCastleFragment"
         android:label="@string/sand_castle_label"
         tools:layout="@layout/fragment_sand_castle">
         <action
-            android:id="@+id/action_sandCastleFragment_to_mainFragment"
-            app:destination="@id/mainFragment" />
+            android:id="@+id/action_sandCastleFragment_to_questForGloryFragment"
+            app:destination="@id/questForGloryFragment" />
     </fragment>
     <fragment
         android:id="@+id/heroPartyFragment"
-        android:name="mak.onelinecoding.questforglory.HeroPartyFragment"
+        android:name="mak.onelinecoding.questforglory.fragments.HeroPartyFragment"
         android:label="@string/hero_party_label"
-        tools:layout="@layout/fragment_hero_party" />
+        tools:layout="@layout/fragment_hero_party" >
+        <action
+            android:id="@+id/action_heroPartyFragment_to_tier2Fragment"
+            app:destination="@id/tier2Fragment" />
+        <action
+            android:id="@+id/action_heroPartyFragment_to_tier3Fragment"
+            app:destination="@id/tier3Fragment" />
+        <action
+            android:id="@+id/action_heroPartyFragment_to_dachaTurkishTerrorFragment"
+            app:destination="@id/dachaTurkishTerrorFragment" />
+    </fragment>
     <fragment
         android:id="@+id/loshmiTheGrayFragment"
-        android:name="mak.onelinecoding.questforglory.LoshmiTheGrayFragment"
+        android:name="mak.onelinecoding.questforglory.fragments.LoshmiTheGrayFragment"
         android:label="@string/loshmi_the_gray_label"
-        tools:layout="@layout/fragment_loshmi_the_gray" />
+        tools:layout="@layout/fragment_loshmi_the_gray" >
+        <action
+            android:id="@+id/action_loshmiTheGrayFragment_to_soothsayerFragment"
+            app:destination="@id/soothsayerFragment" />
+        <action
+            android:id="@+id/action_loshmiTheGrayFragment_to_bridgeOfDoomFragment"
+            app:destination="@id/bridgeOfDoomFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/soothsayerFragment"
+        android:name="mak.onelinecoding.questforglory.fragments.SoothsayerFragment"
+        android:label="SoothsayerFragment" >
+        <action
+            android:id="@+id/action_soothsayerFragment_to_sandCastleFragment"
+            app:destination="@id/sandCastleFragment" />
+        <action
+            android:id="@+id/action_soothsayerFragment_to_iamAliveFragment"
+            app:destination="@id/iamAliveFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/bridgeOfDoomFragment"
+        android:name="mak.onelinecoding.questforglory.fragments.BridgeOfDoomFragment"
+        android:label="BridgeOfDoomFragment" >
+        <action
+            android:id="@+id/action_bridgeOfDoomFragment_to_rareBeastOfBeckaFragment"
+            app:destination="@id/rareBeastOfBeckaFragment" />
+        <action
+            android:id="@+id/action_bridgeOfDoomFragment_to_hatoriHanzoFragment"
+            app:destination="@id/hatoriHanzoFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/tier2Fragment"
+        android:name="mak.onelinecoding.questforglory.fragments.Tier2Fragment"
+        android:label="Tier2Fragment" >
+        <action
+            android:id="@+id/action_tier2Fragment_to_songOfTheSirenFragment"
+            app:destination="@id/songOfTheSirenFragment" />
+        <action
+            android:id="@+id/action_tier2Fragment_to_goranPervySageFragment"
+            app:destination="@id/goranPervySageFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/tier3Fragment"
+        android:name="mak.onelinecoding.questforglory.fragments.Tier3Fragment"
+        android:label="Tier3Fragment" >
+        <action
+            android:id="@+id/action_tier3Fragment_to_loshmiTheGrayFragment"
+            app:destination="@id/loshmiTheGrayFragment" />
+        <action
+            android:id="@+id/action_tier3Fragment_to_hatoriHanzoFragment"
+            app:destination="@id/hatoriHanzoFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/dachaTurkishTerrorFragment"
+        android:name="mak.onelinecoding.questforglory.fragments.DachaTurkishTerrorFragment"
+        android:label="DachaTurkishTerrorFragment" >
+        <action
+            android:id="@+id/action_dachaTurkishTerrorFragment_to_sandCastleFragment"
+            app:destination="@id/sandCastleFragment" />
+        <action
+            android:id="@+id/action_dachaTurkishTerrorFragment_to_wheelOfTimeFragment"
+            app:destination="@id/wheelOfTimeFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/iamAliveFragment"
+        android:name="mak.onelinecoding.questforglory.fragments.IamAliveFragment"
+        android:label="IamAliveFragment" >
+        <action
+            android:id="@+id/action_iamAliveFragment_to_sandCastleFragment"
+            app:destination="@id/sandCastleFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/rareBeastOfBeckaFragment"
+        android:name="mak.onelinecoding.questforglory.fragments.RareBeastOfBeckaFragment"
+        android:label="RareBeastOfBeckaFragment" >
+        <action
+            android:id="@+id/action_rareBeastOfBeckaFragment_to_tier2Fragment"
+            app:destination="@id/tier2Fragment" />
+        <action
+            android:id="@+id/action_rareBeastOfBeckaFragment_to_eatOrBeEatenFragment"
+            app:destination="@id/eatOrBeEatenFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/hatoriHanzoFragment"
+        android:name="mak.onelinecoding.questforglory.fragments.HatoriHanzoFragment"
+        android:label="HatoriHanzoFragment" >
+        <action
+            android:id="@+id/action_hatoriHanzoFragment_to_aleaLactaEstFragment"
+            app:destination="@id/aleaLactaEstFragment" />
+        <action
+            android:id="@+id/action_hatoriHanzoFragment_to_disasterInItsMakingFragment"
+            app:destination="@id/disasterInItsMakingFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/songOfTheSirenFragment"
+        android:name="mak.onelinecoding.questforglory.fragments.SongOfTheSirenFragment"
+        android:label="SongOfTheSirenFragment" >
+        <action
+            android:id="@+id/action_songOfTheSirenFragment_to_cheeseInEarsFragment"
+            app:destination="@id/cheeseInEarsFragment" />
+        <action
+            android:id="@+id/action_songOfTheSirenFragment_to_runToTheHillsFragment"
+            app:destination="@id/runToTheHillsFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/goranPervySageFragment"
+        android:name="mak.onelinecoding.questforglory.fragments.GoranPervySageFragment"
+        android:label="GoranPervySageFragment" />
+    <fragment
+        android:id="@+id/wheelOfTimeFragment"
+        android:name="mak.onelinecoding.questforglory.fragments.WheelOfTimeFragment"
+        android:label="WheelOfTimeFragment" />
+    <fragment
+        android:id="@+id/eatOrBeEatenFragment"
+        android:name="mak.onelinecoding.questforglory.fragments.EatOrBeEatenFragment"
+        android:label="EatOrBeEatenFragment" >
+        <action
+            android:id="@+id/action_eatOrBeEatenFragment_to_hunterOrPreyFragment"
+            app:destination="@id/hunterOrPreyFragment" />
+        <action
+            android:id="@+id/action_eatOrBeEatenFragment_to_soloMidFragment"
+            app:destination="@id/soloMidFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/hunterOrPreyFragment"
+        android:name="mak.onelinecoding.questforglory.fragments.HunterOrPreyFragment"
+        android:label="HunterOrPreyFragment" >
+        <action
+            android:id="@+id/action_hunterOrPreyFragment_to_wheelOfTimeFragment"
+            app:destination="@id/wheelOfTimeFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/soloMidFragment"
+        android:name="mak.onelinecoding.questforglory.fragments.SoloMidFragment"
+        android:label="SoloMidFragment" >
+        <action
+            android:id="@+id/action_soloMidFragment_to_sandCastleFragment"
+            app:destination="@id/sandCastleFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/aleaLactaEstFragment"
+        android:name="mak.onelinecoding.questforglory.fragments.AleaLactaEstFragment"
+        android:label="AleaLactaEstFragment" />
+    <fragment
+        android:id="@+id/disasterInItsMakingFragment"
+        android:name="mak.onelinecoding.questforglory.fragments.DisasterInItsMakingFragment"
+        android:label="DisasterInItsMakingFragment" />
+    <fragment
+        android:id="@+id/cheeseInEarsFragment"
+        android:name="mak.onelinecoding.questforglory.fragments.CheeseInEarsFragment"
+        android:label="CheeseInEarsFragment" />
+    <fragment
+        android:id="@+id/runToTheHillsFragment"
+        android:name="mak.onelinecoding.questforglory.fragments.RunToTheHillsFragment"
+        android:label="RunToTheHillsFragment" />
 
 </navigation>

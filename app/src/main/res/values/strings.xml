@@ -1,13 +1,13 @@
 <resources>
     <string name="app_name">Quest For Glory</string>
 
-    <string name="main_description">You are sitting in office, quite an ordinary day. Nothing was pointing out that this will be most important day for hero in his rising up to glory.\n\nSuddenly, out of nowhere, mail appears in your inbox.\nWhat will you do?</string>
-    <string name="main_ichigo_kurosaki_ichigo">Ignore the mail. You are not a hero…\n(go to Ichigo, Kurosaki Ichigo)</string>
-    <string name="main_hero_in_its_making">This is what I’ve been waiting for, I will open the CASE\n(go to Hero in its making)</string>
+    <string name="quest_for_glory_description">You are sitting in office, quite an ordinary day. Nothing was pointing out that this will be most important day for hero in his rising up to glory.\n\nSuddenly, out of nowhere, mail appears in your inbox.\nWhat will you do?</string>
+    <string name="quest_for_glory_ichigo_kurosaki_ichigo">Ignore the mail. You are not a hero…\n(go to Ichigo, Kurosaki Ichigo)</string>
+    <string name="quest_for_glory_hero_in_its_making">This is what I’ve been waiting for, I will open the CASE\n(go to Hero in its making)</string>
 
     <string name="ichigo_kurosaki_ichigo_label">Ichigo, Kurosaki Ichigo</string>
-    <string name="ichigo_kurosaki_ichigo_description">You pierced sword through one ninja\'s chest, by corner of the eye, you noticed 4 more coming from behind. You thrown shurikens just to get some time, knowing that it can’t do any harm to this hard cored ninjas. But that was enough, you grabbed first ninja for arm and used him as shield against piercing attack from…\nAnd then you woke up… It was about time, another day finished… You can go</string>
-    <string name="ichigo_kurosaki_ichigo_button_text">(go to Problem?)</string>
+    <string name="ichigo_kurosaki_ichigo_description">You pierced sword through one ninja\'s chest, by corner of the eye, you noticed 4 more coming from behind. You thrown shurikens just to get some time, knowing that it can’t do any harm to this hard cored ninjas. But that was enough, you grabbed first ninja for arm and used him as shield against piercing attack from…\nAnd then you woke up…</string>
+    <string name="ichigo_kurosaki_ichigo_problem"> It was about time, another day finished… You can go\n(go to Problem?)</string>
 
     <string name="hero_in_its_making_label">Hero in its making</string>
     <string name="hero_in_its_making_description">Suddenly… Le wild Dakinsa appears asking to open the CASE.</string>

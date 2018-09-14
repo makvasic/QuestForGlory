@@ -12,7 +12,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="8dp"
-            android:text="@string/main_description"
+            android:text="@string/quest_for_glory_description"
             android:textAppearance="@style/TextAppearance.AppCompat.Medium"
             android:textColor="#000" />
 
@@ -22,7 +22,7 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
             android:layout_margin="8dp"
-            android:text="@string/main_ichigo_kurosaki_ichigo"
+            android:text="@string/quest_for_glory_ichigo_kurosaki_ichigo"
             android:textAllCaps="false"
             android:textColor="#000" />
 
@@ -39,7 +39,7 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
             android:layout_margin="8dp"
-            android:text="@string/main_hero_in_its_making"
+            android:text="@string/quest_for_glory_hero_in_its_making"
             android:textAllCaps="false"
             android:textColor="#000" />
 

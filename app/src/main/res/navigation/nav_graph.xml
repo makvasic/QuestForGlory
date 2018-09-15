@@ -199,7 +199,14 @@
     <fragment
         android:id="@+id/goranPervySageFragment"
         android:name="mak.onelinecoding.questforglory.fragments.GoranPervySageFragment"
-        android:label="GoranPervySageFragment" />
+        android:label="GoranPervySageFragment">
+        <action
+            android:id="@+id/action_goranPervySageFragment_to_boysWillBeBoysFragment"
+            app:destination="@id/boysWillBeBoysFragment" />
+        <action
+            android:id="@+id/action_goranPervySageFragment_to_lettersFromIwoJimaFragment"
+            app:destination="@id/lettersFromIwoJimaFragment" />
+    </fragment>
     <fragment
         android:id="@+id/wheelOfTimeFragment"
         android:name="mak.onelinecoding.questforglory.fragments.WheelOfTimeFragment"
@@ -242,10 +249,33 @@
     <fragment
         android:id="@+id/cheeseInEarsFragment"
         android:name="mak.onelinecoding.questforglory.fragments.CheeseInEarsFragment"
-        android:label="CheeseInEarsFragment" />
+        android:label="CheeseInEarsFragment">
+        <action
+            android:id="@+id/action_cheeseInEarsFragment_to_thisIsTheEndMyFriendFragment"
+            app:destination="@id/thisIsTheEndMyFriendFragment" />
+        <action
+            android:id="@+id/action_cheeseInEarsFragment_to_iamAliveFragment"
+            app:destination="@id/iamAliveFragment" />
+    </fragment>
     <fragment
         android:id="@+id/runToTheHillsFragment"
         android:name="mak.onelinecoding.questforglory.fragments.RunToTheHillsFragment"
-        android:label="RunToTheHillsFragment" />
+        android:label="RunToTheHillsFragment">
+        <action
+            android:id="@+id/action_runToTheHillsFragment_to_heroPartyFragment"
+            app:destination="@id/heroPartyFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/boysWillBeBoysFragment"
+        android:name="mak.onelinecoding.questforglory.fragments.BoysWillBeBoysFragment"
+        android:label="BoysWillBeBoysFragment" />
+    <fragment
+        android:id="@+id/lettersFromIwoJimaFragment"
+        android:name="mak.onelinecoding.questforglory.fragments.LettersFromIwoJimaFragment"
+        android:label="LettersFromIwoJimaFragment" />
+    <fragment
+        android:id="@+id/thisIsTheEndMyFriendFragment"
+        android:name="mak.onelinecoding.questforglory.fragments.ThisIsTheEndMyFriendFragment"
+        android:label="ThisIsTheEndMyFriendFragment" />
 
 </navigation>

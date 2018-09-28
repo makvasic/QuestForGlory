@@ -210,7 +210,11 @@
     <fragment
         android:id="@+id/wheelOfTimeFragment"
         android:name="mak.onelinecoding.questforglory.fragments.WheelOfTimeFragment"
-        android:label="WheelOfTimeFragment" />
+        android:label="WheelOfTimeFragment">
+        <action
+            android:id="@+id/action_wheelOfTimeFragment_to_questForGloryFragment"
+            app:destination="@id/questForGloryFragment" />
+    </fragment>
     <fragment
         android:id="@+id/eatOrBeEatenFragment"
         android:name="mak.onelinecoding.questforglory.fragments.EatOrBeEatenFragment"
@@ -241,11 +245,19 @@
     <fragment
         android:id="@+id/aleaLactaEstFragment"
         android:name="mak.onelinecoding.questforglory.fragments.AleaLactaEstFragment"
-        android:label="AleaLactaEstFragment" />
+        android:label="AleaLactaEstFragment">
+        <action
+            android:id="@+id/action_aleaLactaEstFragment_to_problemFragment"
+            app:destination="@id/problemFragment" />
+    </fragment>
     <fragment
         android:id="@+id/disasterInItsMakingFragment"
         android:name="mak.onelinecoding.questforglory.fragments.DisasterInItsMakingFragment"
-        android:label="DisasterInItsMakingFragment" />
+        android:label="DisasterInItsMakingFragment">
+        <action
+            android:id="@+id/action_disasterInItsMakingFragment_to_wheelOfTimeFragment"
+            app:destination="@id/wheelOfTimeFragment" />
+    </fragment>
     <fragment
         android:id="@+id/cheeseInEarsFragment"
         android:name="mak.onelinecoding.questforglory.fragments.CheeseInEarsFragment"
@@ -268,14 +280,75 @@
     <fragment
         android:id="@+id/boysWillBeBoysFragment"
         android:name="mak.onelinecoding.questforglory.fragments.BoysWillBeBoysFragment"
-        android:label="BoysWillBeBoysFragment" />
+        android:label="BoysWillBeBoysFragment">
+        <action
+            android:id="@+id/action_boysWillBeBoysFragment_to_differentTastesFragment"
+            app:destination="@id/differentTastesFragment" />
+        <action
+            android:id="@+id/action_boysWillBeBoysFragment_to_grabTheChanceWhileYouCanFragment"
+            app:destination="@id/grabTheChanceWhileYouCanFragment" />
+    </fragment>
     <fragment
         android:id="@+id/lettersFromIwoJimaFragment"
         android:name="mak.onelinecoding.questforglory.fragments.LettersFromIwoJimaFragment"
-        android:label="LettersFromIwoJimaFragment" />
+        android:label="LettersFromIwoJimaFragment">
+        <action
+            android:id="@+id/action_lettersFromIwoJimaFragment_to_savingPrivateRyanFragment"
+            app:destination="@id/savingPrivateRyanFragment" />
+        <action
+            android:id="@+id/action_lettersFromIwoJimaFragment_to_battleOfHavensFragment"
+            app:destination="@id/battleOfHavensFragment" />
+    </fragment>
     <fragment
         android:id="@+id/thisIsTheEndMyFriendFragment"
         android:name="mak.onelinecoding.questforglory.fragments.ThisIsTheEndMyFriendFragment"
-        android:label="ThisIsTheEndMyFriendFragment" />
+        android:label="ThisIsTheEndMyFriendFragment">
+        <action
+            android:id="@+id/action_thisIsTheEndMyFriendFragment_to_wheelOfTimeFragment"
+            app:destination="@id/wheelOfTimeFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/differentTastesFragment"
+        android:name="mak.onelinecoding.questforglory.fragments.DifferentTastesFragment"
+        android:label="DifferentTastesFragment">
+        <action
+            android:id="@+id/action_differentTastesFragment_to_sandCastleFragment"
+            app:destination="@id/sandCastleFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/grabTheChanceWhileYouCanFragment"
+        android:name="mak.onelinecoding.questforglory.fragments.GrabTheChanceWhileYouCanFragment"
+        android:label="GrabTheChanceWhileYouCanFragment">
+        <action
+            android:id="@+id/action_grabTheChanceWhileYouCanFragment_to_sandCastleFragment2"
+            app:destination="@id/sandCastleFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/savingPrivateRyanFragment"
+        android:name="mak.onelinecoding.questforglory.fragments.SavingPrivateRyanFragment"
+        android:label="SavingPrivateRyanFragment">
+        <action
+            android:id="@+id/action_savingPrivateRyanFragment_to_grabTheChanceWhileYouCanFragment"
+            app:destination="@id/grabTheChanceWhileYouCanFragment" />
+        <action
+            android:id="@+id/action_savingPrivateRyanFragment_to_doOrBeDoneFragment"
+            app:destination="@id/doOrBeDoneFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/battleOfHavensFragment"
+        android:name="mak.onelinecoding.questforglory.fragments.BattleOfHavensFragment"
+        android:label="BattleOfHavensFragment">
+        <action
+            android:id="@+id/action_battleOfHavensFragment_to_wheelOfTimeFragment"
+            app:destination="@id/wheelOfTimeFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/doOrBeDoneFragment"
+        android:name="mak.onelinecoding.questforglory.fragments.DoOrBeDoneFragment"
+        android:label="DoOrBeDoneFragment">
+        <action
+            android:id="@+id/action_doOrBeDoneFragment_to_runToTheHillsFragment"
+            app:destination="@id/runToTheHillsFragment" />
+    </fragment>
 
 </navigation>

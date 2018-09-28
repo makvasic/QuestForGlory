@@ -5,15 +5,15 @@ import mak.onelinecoding.questforglory.R
 import mak.onelinecoding.questforglory.model.Description
 import mak.onelinecoding.questforglory.model.Page
 
-class AleaLactaEstFragment : BaseFragment() {
+class BattleOfHavensFragment : BaseFragment() {
     override val items = listOf(
         Description(
-            R.string.alea_lacta_est_description
+            R.string.battle_of_heavens_description
         ),
         Page(
             R.id.problemFragment,
-            R.string.alea_lacta_est_problem,
-            R.drawable.asocijacije
+            R.string.battle_of_heavens_wheel_of_time,
+            R.drawable.snowman
         )
     )
 }

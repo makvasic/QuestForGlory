@@ -39,4 +39,8 @@
     <string name="loshmi_the_gray_description">As you expose your problem to LoshMi, you can see hint of his smile, as would you look upon child who would try to fight his way with wooden sword against old Oak tree…</string>
     <string name="loshmi_the_gray_soothsayer">Young one, if you want to hear my advice, go far to the north, where mountains touch the sky, where clouds dance among eyes of ones who watch it. There will you find Pedja the oracle\n(go to page Soothsayer)</string>
     <string name="loshmi_the_gray_bridge_of_doom">I help you will… if you do thou quest for me\n(go to Bridge of doom)</string>
+    <string name="alea_lacta_est_description">After you said number 2, Milan the EarthShaker  answered number 2, and since it was correct answer in ancient game of Asocijacije, he won. Therefore he was happy and decided to help you with your quest…</string>
+    <string name="alea_lacta_est_problem">(go to Problem?)</string>
+    <string name="battle_of_heavens_description">A wild conversation bursts out, what hero will fare best, who will win, where to go, what items to buy, what skills to build, who will support who, who will carry, who will feed… the troops.</string>
+    <string name="battle_of_heavens_wheel_of_time">And you forgot about CASE at all, before you know it, it’s 17.00h, tavern closing time. (go to page Wheel of time)</string>
 </resources>

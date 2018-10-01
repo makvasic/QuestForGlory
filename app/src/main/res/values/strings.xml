@@ -22,7 +22,7 @@
     <string name="clark_gable_description">As you embark on quest of great… no… EPIC proportions, you must choose how to deal with upcoming menace…</string>
     <string name="clark_gable_send_castle">Seems I can do it… after all…\n(go to Sand Castle)</string>
     <string name="clark_gable_hero_party">I can\'t do it after all… I need to search for quest companions\n(go to Hero Party)</string>
-    <string name="clark_gable_loshmi_the_gray">Who cares… I am Tier 1 hero anyway..\n(go to Loshmi The Gray)</string>
+    <string name="clark_gable_loshmi_the_gray">Who cares… I am Tier 1 hero anyway…\n(go to Loshmi The Gray)</string>
     <string name="clark_gable_label">Clark Gable</string>
 
     <string name="sand_castle_description">You made it… CASE is solved, and you can bask in your glory.\n\nFrom town to town, your name will be singed, young virgins will repeat your name in their dreams, and jealous husbands will curse you because after tale of your deeds they will never be top male in their wife’s hearts.</string>
@@ -34,13 +34,43 @@
     <string name="hero_party_dacha_turkish_terror">I will ask Dakinsa… old friend from thousands battles to help me… more XP for both of us…\n(go to Dacha theTurkish terror)</string>
     <string name="hero_party_label">Hero Party</string>
 
-
     <string name="loshmi_the_gray_label">LoshMi The Gray</string>
     <string name="loshmi_the_gray_description">As you expose your problem to LoshMi, you can see hint of his smile, as would you look upon child who would try to fight his way with wooden sword against old Oak tree…</string>
     <string name="loshmi_the_gray_soothsayer">Young one, if you want to hear my advice, go far to the north, where mountains touch the sky, where clouds dance among eyes of ones who watch it. There will you find Pedja the oracle\n(go to page Soothsayer)</string>
     <string name="loshmi_the_gray_bridge_of_doom">I help you will… if you do thou quest for me\n(go to Bridge of doom)</string>
+
     <string name="alea_lacta_est_description">After you said number 2, Milan the EarthShaker  answered number 2, and since it was correct answer in ancient game of Asocijacije, he won. Therefore he was happy and decided to help you with your quest…</string>
     <string name="alea_lacta_est_problem">(go to Problem?)</string>
+
     <string name="battle_of_heavens_description">A wild conversation bursts out, what hero will fare best, who will win, where to go, what items to buy, what skills to build, who will support who, who will carry, who will feed… the troops.</string>
     <string name="battle_of_heavens_wheel_of_time">And you forgot about CASE at all, before you know it, it’s 17.00h, tavern closing time. (go to page Wheel of time)</string>
+
+    <string name="boys_will_be_boys_description">The girl on which he is using his ancient and wise seducing methods, is a lady of great beauty, only seen once in the lifetime, that you cry out in cold nights and whose name will never make your lips forget them.</string>
+    <string name="boys_will_be_boys_different_tastes">Stop overreacting, she is not that good at all… moderate at best…\n(go to Different tastes)</string>
+    <string name="boys_will_be_boys_grab_the_chance">Wow… she does look like a bomb… or will be in 5 years\n(go to page Grab the chance while you can)</string>
+
+    <string name="cheese_in_ears_description">As you approach song becomes more and more louder… you feed like your head will burst, and the pain makes you forget what was your quest in first place, you must make save check in order to resist the spell.</string>
+    <string name="cheese_in_ears_i_am_alive">You rolled the dice for resist check and you rolled 5\n(go to I am alive, I am alive)</string>
+    <string name="cheese_in_ears_this_is_the_end">You rolled the dice for resist check and you rolled 3\n(go to This is the end… my only friend)</string>
+
+    <string name="bridge_of_doom_description">LoshMi the mage eyed you up and down as considering will you be up for the task… then he decides that you may be Tier 1 hero, but there is something heroic inside you… so he gives you choices…</string>
+    <string name="bridge_of_doom_rare_beast_of_becka">Go in to the wilds of Winner, and hunt me some food…if you survive that is…\n(go to rare beast of Becka)</string>
+    <string name="bridge_of_doom_hatori_hanzo">I have no time for you, go to Milan theEarthShaker and ask for his advice…\n(go to Hatori Hanzo)</string>
+
+    <string name="dacha_turkish_terror_description">Dakinsha, young and naive hero wannabe, is skulking around you, waiting to get chance for his piece of glory. After you gave him chance to become famous, he turns his all power into solving CASE.</string>
+    <string name="dacha_turkish_terror_sand_castle">He tries… harder and harder, and somehow he miraculously does it\n(go to Sand castle)</string>
+    <string name="dacha_turkish_terror_wheel_of_time">After hours of trying, he fails to open the CASE, His weapon must be under VPN curse, and therefore unable to open CASE in this realm…\n(go to Wheel of time)</string>
+
+    <string name="different_tastes_description">Goran the pervy sage is willing to help you, because maiden was not worth saving, after 5–6 consulting’s with Tier 3 group, you are ready to embark on glorious quest of solving the CASE.</string>
+    <string name="different_tastes_sand_castle">(go to Sand Castle)</string>
+
+    <string name="disaster_in_its_making_description">Only fools would dare to interrupt Milan the EarthShaker while playing Slagalica with beautiful Milka Canić… In a flashing of en eye, you were whipped out from this world, last thing you heard was 四方八方手裏剣 (All sorts of throwing shuriken :D)</string>
+    <string name="disaster_in_its_making_wheel_of_time">(go to Wheel of Time)</string>
+
+    <string name="do_or_be_done_description">After hearing that it was all a lie, Goran bursts into rage and starts… dancing!? Though the dance was somewhat smooth and catchy, you couldn\'t stand that amount of rhythm, it was like river flushing to your face, with its wild currents. So you chose bravely to… retreat… for now…</string>
+    <string name="do_or_be_done_run_to_the_hills">(go to Run to the hills)</string>
+
+    <string name="eat_or_be_eaten_description">You fought bravely. Exchanging hit by hit with monster, and fight lasted deep into night, with last ounce of power you tried to throw axe between its eyes…</string>
+    <string name="eat_or_be_eaten_hunter_or_pray">You rolled 5 (go to Hunter or pray?)</string>
+    <string name="eat_or_be_eaten_solo_mid">You rolled 6 (go to Solo mid?)</string>
 </resources>

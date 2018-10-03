@@ -77,7 +77,7 @@
         android:id="@+id/heroPartyFragment"
         android:name="mak.onelinecoding.questforglory.fragments.HeroPartyFragment"
         android:label="@string/hero_party_label"
-        tools:layout="@layout/fragment_hero_party" >
+        tools:layout="@layout/fragment_hero_party">
         <action
             android:id="@+id/action_heroPartyFragment_to_tier2Fragment"
             app:destination="@id/tier2Fragment" />
@@ -92,7 +92,7 @@
         android:id="@+id/loshmiTheGrayFragment"
         android:name="mak.onelinecoding.questforglory.fragments.LoshmiTheGrayFragment"
         android:label="@string/loshmi_the_gray_label"
-        tools:layout="@layout/fragment_loshmi_the_gray" >
+        tools:layout="@layout/fragment_loshmi_the_gray">
         <action
             android:id="@+id/action_loshmiTheGrayFragment_to_soothsayerFragment"
             app:destination="@id/soothsayerFragment" />
@@ -103,7 +103,7 @@
     <fragment
         android:id="@+id/soothsayerFragment"
         android:name="mak.onelinecoding.questforglory.fragments.SoothsayerFragment"
-        android:label="SoothsayerFragment" >
+        android:label="SoothsayerFragment">
         <action
             android:id="@+id/action_soothsayerFragment_to_sandCastleFragment"
             app:destination="@id/sandCastleFragment" />
@@ -114,7 +114,7 @@
     <fragment
         android:id="@+id/bridgeOfDoomFragment"
         android:name="mak.onelinecoding.questforglory.fragments.BridgeOfDoomFragment"
-        android:label="BridgeOfDoomFragment" >
+        android:label="@string/bridge_of_doom_label">
         <action
             android:id="@+id/action_bridgeOfDoomFragment_to_rareBeastOfBeckaFragment"
             app:destination="@id/rareBeastOfBeckaFragment" />
@@ -125,7 +125,7 @@
     <fragment
         android:id="@+id/tier2Fragment"
         android:name="mak.onelinecoding.questforglory.fragments.Tier2Fragment"
-        android:label="Tier2Fragment" >
+        android:label="Tier2Fragment">
         <action
             android:id="@+id/action_tier2Fragment_to_songOfTheSirenFragment"
             app:destination="@id/songOfTheSirenFragment" />
@@ -136,7 +136,7 @@
     <fragment
         android:id="@+id/tier3Fragment"
         android:name="mak.onelinecoding.questforglory.fragments.Tier3Fragment"
-        android:label="Tier3Fragment" >
+        android:label="Tier3Fragment">
         <action
             android:id="@+id/action_tier3Fragment_to_loshmiTheGrayFragment"
             app:destination="@id/loshmiTheGrayFragment" />
@@ -147,7 +147,7 @@
     <fragment
         android:id="@+id/dachaTurkishTerrorFragment"
         android:name="mak.onelinecoding.questforglory.fragments.DachaTurkishTerrorFragment"
-        android:label="DachaTurkishTerrorFragment" >
+        android:label="DachaTurkishTerrorFragment">
         <action
             android:id="@+id/action_dachaTurkishTerrorFragment_to_sandCastleFragment"
             app:destination="@id/sandCastleFragment" />
@@ -158,7 +158,7 @@
     <fragment
         android:id="@+id/iamAliveFragment"
         android:name="mak.onelinecoding.questforglory.fragments.IamAliveFragment"
-        android:label="IamAliveFragment" >
+        android:label="IamAliveFragment">
         <action
             android:id="@+id/action_iamAliveFragment_to_sandCastleFragment"
             app:destination="@id/sandCastleFragment" />
@@ -166,7 +166,7 @@
     <fragment
         android:id="@+id/rareBeastOfBeckaFragment"
         android:name="mak.onelinecoding.questforglory.fragments.RareBeastOfBeckaFragment"
-        android:label="RareBeastOfBeckaFragment" >
+        android:label="RareBeastOfBeckaFragment">
         <action
             android:id="@+id/action_rareBeastOfBeckaFragment_to_tier2Fragment"
             app:destination="@id/tier2Fragment" />
@@ -177,7 +177,7 @@
     <fragment
         android:id="@+id/hatoriHanzoFragment"
         android:name="mak.onelinecoding.questforglory.fragments.HatoriHanzoFragment"
-        android:label="HatoriHanzoFragment" >
+        android:label="HatoriHanzoFragment">
         <action
             android:id="@+id/action_hatoriHanzoFragment_to_aleaLactaEstFragment"
             app:destination="@id/aleaLactaEstFragment" />
@@ -188,7 +188,7 @@
     <fragment
         android:id="@+id/songOfTheSirenFragment"
         android:name="mak.onelinecoding.questforglory.fragments.SongOfTheSirenFragment"
-        android:label="SongOfTheSirenFragment" >
+        android:label="SongOfTheSirenFragment">
         <action
             android:id="@+id/action_songOfTheSirenFragment_to_cheeseInEarsFragment"
             app:destination="@id/cheeseInEarsFragment" />
@@ -218,7 +218,7 @@
     <fragment
         android:id="@+id/eatOrBeEatenFragment"
         android:name="mak.onelinecoding.questforglory.fragments.EatOrBeEatenFragment"
-        android:label="EatOrBeEatenFragment" >
+        android:label="EatOrBeEatenFragment">
         <action
             android:id="@+id/action_eatOrBeEatenFragment_to_hunterOrPreyFragment"
             app:destination="@id/hunterOrPreyFragment" />
@@ -229,7 +229,7 @@
     <fragment
         android:id="@+id/hunterOrPreyFragment"
         android:name="mak.onelinecoding.questforglory.fragments.HunterOrPreyFragment"
-        android:label="HunterOrPreyFragment" >
+        android:label="HunterOrPreyFragment">
         <action
             android:id="@+id/action_hunterOrPreyFragment_to_wheelOfTimeFragment"
             app:destination="@id/wheelOfTimeFragment" />
@@ -237,7 +237,7 @@
     <fragment
         android:id="@+id/soloMidFragment"
         android:name="mak.onelinecoding.questforglory.fragments.SoloMidFragment"
-        android:label="SoloMidFragment" >
+        android:label="SoloMidFragment">
         <action
             android:id="@+id/action_soloMidFragment_to_sandCastleFragment"
             app:destination="@id/sandCastleFragment" />

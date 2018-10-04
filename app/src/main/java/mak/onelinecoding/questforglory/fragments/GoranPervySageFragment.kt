@@ -1,6 +1,7 @@
 package mak.onelinecoding.questforglory.fragments
 
 import mak.onelinecoding.questforglory.BaseFragment
+import mak.onelinecoding.questforglory.R
 import mak.onelinecoding.questforglory.model.Description
 import mak.onelinecoding.questforglory.model.Page
 

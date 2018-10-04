@@ -85,9 +85,37 @@
     <string name="eat_or_be_eaten_solo_mid">You rolled 6 (go to Solo mid?)</string>
 
     <string name="goran_the_pervy_sage_label">Goran the Pervy Sage</string>
-    <string name="goran_the_pervy_sage_desctiption">Goran the sage is sitting in his high chair… looking very busy, but you already feel aura of wisdom spreading around him, like it suits to someone who spent so many years studying and in search of knowledge. As you come near him you see that:</string>
+    <string name="goran_the_pervy_sage_description">Goran the sage is sitting in his high chair… looking very busy, but you already feel aura of wisdom spreading around him, like it suits to someone who spent so many years studying and in search of knowledge. As you come near him you see that:</string>
     <string name="goran_the_pervy_sage_boys_will_be_boys">He is on Tagallicious checking the young girls online\n(go to Boys will be boys)</string>
     <string name="goran_the_pervy_sage_iwo_jima">He is reading the last copy of Sage’s popular magazine, called Kurir\n(go to Letters form Iwo Jima)</string>
+
+
+    <string name="grab_the_chance_label">Grab the chance</string>
+    <string name="grab_the_chance_description">You manage to convince the Sage to help you, using flattery, and sweet talk. After a while, he is in a good mood, he takes on himself to ask noble warriors from Tier 3, and you are free to go</string>
+    <string name="grab_the_chance_sand_castle">(go to page Sand Castle)</string>
+
+    <string name="hatori_hanzo_label">Hatori Hanzo</string>
+    <string name="hatori_hanzo_description">A warrior is playing dice with some shady characters. At first, you try to wait, but soon you realize this will take to long to wait, so you chose to make your first move.</string>
+    <string name="hatori_hanzo_alea_iacta_est">You try to attract his attention and roll the dice for Charisma check. You rolled 2\n(go to page Alea Iacta Est)</string>
+    <string name="hatori_hanzo_disaster_in_its_making">You try to attract his attention and roll the dice for Charisma check. You rolled 4\n(go to Disaster in its making)</string>
+
+    <string name="hunter_or_pray_label">Hunter or pray</string>
+    <string name="hunter_or_pray_description">You failed miserably, and was promptly eaten. Maybe you were third grade hero, but you were first class meal on Pragnje’s table…</string>
+    <string name="hunter_or_pray_wheel_of_time">(go to Wheel of time)</string>
+
+    <string name="i_am_alive_label">I am alive</string>
+    <string name="i_am_alive_description">After surviving Trba the Siren’s song, you asked her for advice, and she agrees to help you, in exchange for turning on ancient radio that barbarians broke so that Siren couldn’t sing anymore.</string>
+    <string name="i_am_alive_sand_castle">(go to Sand Castle)</string>
+
+    <string name="letters_from_iwo_jima_label">Letters form Iwo Jima</string>
+    <string name="letters_from_iwo_jima_description">In his wisdom, the wise and pervy sage, pays no attention to your young crew of adventurers. Of course you can\'t just bump in, risking that your insolence shall be severely punished, soooo you chose a more… tactical approach…</string>
+    <string name="letters_from_iwo_jima_saving_private_ryan">Start apparently naive conversation with Dakinsa about new dungeon named Avaya Patches 6.2 that appeared in hills nearby, swarming with monsters and treasure…\n(go to Saving private Ryan)</string>
+    <string name="letters_from_iwo_jima_battle_of_heavens">In land far away, battle outbursts between sentinel and dire forces… with many famous heroes on both sides, clash will happen of the fields of DotA…(go to Battle of heavens)</string>
+
+    <string name="rare_beast_of_becka_label">Rare beast of Bečka</string>
+    <string name="rare_beast_of_becka_description">After approaching wilds of Winner, you wonder what sort of animal would that be, so terrifying that even LoshMi the mage wouldn’t dare go hunting it. And then you saw it… jaws like white shark, fangs of the saber tiger, …yes…you can see it clearly now… mythical creature… Pragnje…</string>
+    <string name="rare_beast_of_becka_tier2">I can\'t capture it alone… I need new teammate to help me in this task…\n(go to Tier 2)</string>
+    <string name="rare_beast_of_becka_eat_or_be_eaten">I can solo this, no help needed…\n(go to Eat or be eaten)</string>
 
 
 </resources>
